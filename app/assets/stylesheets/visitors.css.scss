@@ -1,16 +1,55 @@
-#video-viewport {
-    height: 0;
-    overflow: hidden;
-    padding-top: 591.44px / 1127.34px * 100%;
-    background: white;
-    position: relative;
-}
-
-#video-content {
+#video-victor {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#video-alyssa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+button {
+    background: transparent;
+    // background: black;
+    border: none !important;
+    font-size: 18px;
+    position: absolute;
+}
+
+#down-button {
+    left: 1160px;
+    top: 450px;
+    width: 300px;
+    height: 150px;
+}
+
+#up-button {
+    left: 1160px;
+    top: 45px;
+    width: 300px;
+    height: 150px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.uneeq-modal-btn {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    background-color: purple !important;
+}
+
+.modal-title {
+    padding-left: 21rem;
 }

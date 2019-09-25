@@ -1,1 +1,28 @@
-<%= video_tag 'opening-victor.mp4', id: "video-content", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'opening-victor.mp4', id: "video-victor", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'victor-to-alyssa.mp4', id: "video-alyssa", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<button id="up-button"></button>
+<button id="down-button"></button>
+
+<button type="button" class="btn btn-success btn-lg uneeq-modal-btn" data-toggle="modal" data-target="#exampleModal">
+  About Victor
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About Victor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hi - I'm Victor.  Dashing, Mysterious, and ready to answer your questions about variable-rate mortgages - they've gotten better since the last economic meltdown!
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
