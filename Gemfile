@@ -32,3 +32,4 @@ group :development do
   gem 'hub', :require=>nil
   gem 'rails_layout'
 end
+gem 'rails_12factor', group: :production
