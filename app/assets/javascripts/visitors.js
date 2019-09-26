@@ -12,6 +12,7 @@ $(document).ready(function () {
         $("#video-intro").hide();
         victor_video.show();
         victor_video.get(0).play();
+        $(this).hide();
         $("#up-button").show();
         $("#down-button").show();
     });
