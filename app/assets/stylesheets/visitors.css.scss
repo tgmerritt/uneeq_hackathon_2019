@@ -19,6 +19,10 @@
     display: none;
 }
 
+#button_container {
+    width: 100%;
+}
+
 button {
     background: transparent;
     // background: black;
@@ -28,33 +32,33 @@ button {
 }
 
 #explore-button {
-    left: 380px;
-    top: 600px;
-    width: 1000px;
-    height: 200px;
+    left: 32%;
+    top: 58.6315%;
+    width: 38.7192%;
+    height: 22.5438%;
 }
 
 #down-button {
-    left: 1100px;
-    top: 560px;
-    width: 800px;
-    height: 170px;
+    left: 82%;
+    top: 59%;
+    width: 16.9%;
+    height: 20%;
     display: none;
 }
 
 #up-button {
-    left: 1100px;
-    top: 75px;
-    width: 800px;
-    height: 170px;
+    left: 82%;
+    top: 7%;
+    width: 16.9%;
+    height: 20%;
     display: none;
 }
 
 #select-button {
-    left: 1100px;
-    top: 250px;
-    width: 800px;
-    height: 320px;
+    left: 82%;
+    top: 28%;
+    width: 17%;
+    height: 30%;
     display: none;
 }
 

@@ -2,31 +2,34 @@
 <%= video_tag 'victor.mp4', id: "video-victor", class: "video_loop", size: "1920x1080", autoplay: false, preload: true, loop: true %>
 <%= video_tag 'alyssa.mp4', id: "video-alyssa", class: "video_loop", size: "1920x1080", autoplay: false, preload: true, loop: true %>
 <%= video_tag 'sophie.mp4', id: "video-sophie", class: "video_loop", size: "1920x1080", autoplay: false, preload: true, loop: true %>
-<button id="explore-button"></button>
-<button id="up-button"></button>
-<button id="down-button"></button>
 
-<a href="https://dal-admin.faceme.com/test/9350a390-a479-4d67-9acd-07d22118a9fc">
-  <button id="select-button"></button>
-</a>
+<div id="button_container">
+  <button id="explore-button"></button>
+  <button id="up-button"></button>
+  <button id="down-button"></button>
 
-
-<button type="button" class="btn btn-success btn-lg uneeq-modal-btn" data-toggle="modal" data-target="#exampleModal" style="display:none;">
-  About Victor
-</button>
+  <a href="https://dal-admin.faceme.com/test/9350a390-a479-4d67-9acd-07d22118a9fc">
+    <button id="select-button"></button>
+  </a>
 
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">About Victor</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Hi - I'm Victor.  Dashing, Mysterious, and ready to answer your questions about variable-rate mortgages - they've gotten better since the last economic meltdown!
+  <button type="button" class="btn btn-success btn-lg uneeq-modal-btn" data-toggle="modal" data-target="#exampleModal" style="display:none;">
+    About Victor
+  </button>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">About Victor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Hi - I'm Victor.  Dashing, Mysterious, and ready to answer your questions about variable-rate mortgages - they've gotten better since the last economic meltdown!
+        </div>
       </div>
     </div>
   </div>
