@@ -1,4 +1,4 @@
-#video-victor {
+.video_loop {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,13 +7,15 @@
     object-fit: cover;
 }
 
+#video-victor {
+    display: none;
+}
+
 #video-alyssa {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: none;
+}
+
+#video-sophie {
     display: none;
 }
 
@@ -25,11 +27,19 @@ button {
     position: absolute;
 }
 
+#explore-button {
+    left: 300px;
+    top: 500px;
+    width: 1000px;
+    height: 200px;
+}
+
 #down-button {
     left: 1100px;
     top: 550px;
     width: 800px;
     height: 150px;
+    display: none;
 }
 
 #up-button {
@@ -37,6 +47,7 @@ button {
     top: 75px;
     width: 800px;
     height: 150px;
+    display: none;
 }
 
 button:focus {

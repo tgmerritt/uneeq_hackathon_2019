@@ -31,5 +31,7 @@ group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
   gem 'rails_layout'
+  gem 'ruby-debug-ide'
+  gem 'debase'
 end
 gem 'rails_12factor', group: :production

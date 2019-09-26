@@ -1,9 +1,13 @@
-<%= video_tag 'opening-victor.mp4', id: "video-victor", size: "1920x1080", autoplay: true, preload: true, loop: true %>
-<%= video_tag 'victor-to-alyssa.mp4', id: "video-alyssa", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'intro.mp4', id: "video-intro", class: "video_loop", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'victor.mp4', id: "video-victor", class: "video_loop", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'alyssa.mp4', id: "video-alyssa", class: "video_loop", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<%= video_tag 'sophie.mp4', id: "video-sophie", class: "video_loop", size: "1920x1080", autoplay: true, preload: true, loop: true %>
+<button id="explore-button"></button>
 <button id="up-button"></button>
 <button id="down-button"></button>
 
-<button type="button" class="btn btn-success btn-lg uneeq-modal-btn" data-toggle="modal" data-target="#exampleModal">
+
+<button type="button" class="btn btn-success btn-lg uneeq-modal-btn" data-toggle="modal" data-target="#exampleModal" style="display:none;">
   About Victor
 </button>
 
