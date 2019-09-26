@@ -50,6 +50,14 @@ button {
     display: none;
 }
 
+#select-button {
+    left: 1100px;
+    top: 235px;
+    width: 800px;
+    height: 250px;
+    display: none;
+}
+
 button:focus {
     outline: none !important;
 }
